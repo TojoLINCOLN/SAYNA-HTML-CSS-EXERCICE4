@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #B11313;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 5%;
+}
+
+#menu { 
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+a{
+    padding: 5% 5% 2% 5%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
+@media (max-width:768px){
+    
+        header{ background: none;
+                position: absolute}
+        #menu{ display: none;}
+   
+
+}
+/****************fin header******************************/
+
+#Premier{
+    width: 100%;
+    background: url("../Assets/Illustration/img1.png") no-repeat;
+    background-size: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+    
+}
+#titre{
+    padding: 20% 5% 0 5%;
+}
+@font-face {
+    font-family: myfont;
+    src: url('../Assets/Typo-FarFromHomecoming.woff2');
+}
+#titre h1{
+    color: #FFFFFF;
+    font-family: myfont;
+    font-size: 7rem;
+}
+
+#button{
+    padding: 5% 0 0 5%;
+   
+}
+#button button{
+    border-radius: 20px;
+    padding: 1% 5%;
+}
+
+#button #adversaire{
+    background:none;
+    color: #FFFFFF;
+}
+
+#text{
+    padding: 1% 5% 20% 5%;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+/***********************fin premier section***********************/
+#Deuxieme{
+    background-color: #B11313;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.col-md-12{
+    padding-left: 5%;
+
+}
+
+.col-md-4{
+    text-align: center;
+    padding: 0 5% 5% 5%;
+}
+.col-md-4 img{
+    width: 100%;
+    padding-bottom: 10%;
+}
+.hero{
+    background-color: #FFFFFF;
+    color: #B11313;  
+    padding: 1% 5%;
+    border-radius: 20px;
+}
+
+
+/********************fin deuxieme section***************************/
+#Troisieme{
+    background: #114C92 url("../Assets/Illustration/img5.png") no-repeat;
+    padding: 5%;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+#Troisieme .col-md-12{
+    text-align: end;
+}
+#Troisieme input{
+    margin: 1%;
+    padding: 1%;
+    width: 40%;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+#envoyer{
+    background: none;
+    border:solid 1px #FFFFFF;
+    padding: 0 5%;
+    border-radius: 20px;
+    margin: 2% 15%;
+    padding: 1% 5%;
+}
+@media (max-width:768px) {
+    #Troisieme .col-md-12{
+        text-align: center;
+    }
+    #Troisieme input{
+        width: 100%;
+    }
+    
+}
+/****************fin troisieme section************************/
+
+#Quatrieme{
+    background: #B11313 url("../Assets/Illustration/img6.png") no-repeat right;
+    padding: 5%;
+    color: white;
+    overflow: hidden;
+}
+#Quatrieme .nom_adresse{
+    width: 50%;
+    margin: 2% 0;
+    background: none;
+    border-radius: 20px;
+    padding: 2%;
+    border:solid 1px #FFFFFF;
+    color: #FFFFFF;
+}
+#inscrire{
+    margin: 5% 8% 10% 10%;
+}
+/******************fin quatrieme partie*************************/
+
+footer{
+    background: #000000;
+}
+footer .row{
+    padding: 5%;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+footer .col-md-4{
+    padding: 0;    
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+
+}
+#logo img{
+    background: #B11313;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+@media (max-width:768px) {
+    #logo{
+        align-items: center;
+    }
+}
+#C{
+    margin-top: 2%;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #F1C530;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 5%;
+}
+
+#menu { 
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+a{
+    padding: 5% 5% 2% 5%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+@media (max-width:768px){
+    
+        header{ background: none;
+                position: absolute}
+        #menu{ display: none;}
+   
+
+}
+/****************fin header******************************/
+#Premier{
+    background: url("../Assets/Illustration/img7.png") no-repeat;
+    background-size: 100%;
+    color: #FFFFFF;
+    padding: 20% 8%;
+}
+h1{
+    font-size: 10rem;
+}
